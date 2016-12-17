@@ -1,15 +1,17 @@
 package test.practice.string;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.practice.string.RemoveOccurences;
 
 /**
  * 
- * @author Selvasankari
+ * @author Selvasankari Manoharan
  *
  */
+@Listeners(ListenerDemo.class)
 public class RemoveOccurenceTest {
 
 	/**
@@ -20,6 +22,7 @@ public class RemoveOccurenceTest {
 		RemoveOccurences removeOccurences = new RemoveOccurences();
 		removeOccurences.builtInFunction(null, null);
 		removeOccurences.iterationMethod(null, null);
+		
 		removeOccurences.builtInFunction("", 'a');
 		removeOccurences.iterationMethod("", ' ');
 	}

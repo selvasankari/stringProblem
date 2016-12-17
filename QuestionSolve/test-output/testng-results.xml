@@ -2,21 +2,21 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44" started-at="2015-06-05T06:41:43Z" finished-at="2015-06-05T06:41:43Z">
+  <suite name="TestSuite" duration-ms="61" started-at="2016-11-15T23:56:56Z" finished-at="2016-11-15T23:56:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44" started-at="2015-06-05T06:41:43Z" finished-at="2015-06-05T06:41:43Z">
+    <test name="sample test suite" duration-ms="61" started-at="2016-11-15T23:56:56Z" finished-at="2016-11-15T23:56:56Z">
       <class name="test.practice.string.RemoveOccurenceTest">
-        <test-method status="PASS" signature="testBuiltInFunction()[pri:0, instance:test.practice.string.RemoveOccurenceTest@4ee90e9]" name="testBuiltInFunction" duration-ms="18" started-at="2015-06-04T23:41:43Z" finished-at="2015-06-04T23:41:43Z">
+        <test-method status="PASS" signature="testBuiltInFunction()[pri:0, instance:test.practice.string.RemoveOccurenceTest@c9046b1]" name="testBuiltInFunction" duration-ms="22" started-at="2016-11-15T15:56:56Z" finished-at="2016-11-15T15:56:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBuiltInFunction -->
-        <test-method status="PASS" signature="testInvalidInputs()[pri:0, instance:test.practice.string.RemoveOccurenceTest@4ee90e9]" name="testInvalidInputs" duration-ms="1" started-at="2015-06-04T23:41:43Z" finished-at="2015-06-04T23:41:43Z">
+        <test-method status="PASS" signature="testInvalidInputs()[pri:0, instance:test.practice.string.RemoveOccurenceTest@c9046b1]" name="testInvalidInputs" duration-ms="2" started-at="2016-11-15T15:56:56Z" finished-at="2016-11-15T15:56:56Z">
           <exception class="java.lang.IllegalArgumentException">
             <full-stacktrace>
               <![CDATA[java.lang.IllegalArgumentException
-	at com.practice.string.RemoveOccurences.builtInFunction(RemoveOccurences.java:67)
-	at test.practice.string.RemoveOccurenceTest.testInvalidInputs(RemoveOccurenceTest.java:21)
+	at com.practice.string.RemoveOccurences.builtInFunction(RemoveOccurences.java:66)
+	at test.practice.string.RemoveOccurenceTest.testInvalidInputs(RemoveOccurenceTest.java:23)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -47,11 +47,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidInputs -->
-        <test-method status="PASS" signature="testIterativeApproach()[pri:0, instance:test.practice.string.RemoveOccurenceTest@4ee90e9]" name="testIterativeApproach" duration-ms="2" started-at="2015-06-04T23:41:43Z" finished-at="2015-06-04T23:41:43Z">
+        <test-method status="PASS" signature="testIterativeApproach()[pri:0, instance:test.practice.string.RemoveOccurenceTest@c9046b1]" name="testIterativeApproach" duration-ms="2" started-at="2016-11-15T15:56:56Z" finished-at="2016-11-15T15:56:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIterativeApproach -->
       </class> <!-- test.practice.string.RemoveOccurenceTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- sample test suite -->
+  </suite> <!-- TestSuite -->
 </testng-results>
